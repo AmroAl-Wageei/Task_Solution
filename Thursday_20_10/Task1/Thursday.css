@@ -1,0 +1,33 @@
+
+
+.a {
+
+    border-style:solid;
+    border-width: 3xp 3xp  3xp 3xp ;
+    background-color:aliceblue;
+    width: 800px;
+
+}
+
+.b {
+
+    border-style:dotted;
+    background-color:aliceblue;
+    width: 800px;
+
+}
+
+
+.c {
+
+    border-style:solid;
+    background-color:aliceblue;
+    width: 800px;
+}
+
+#b1  {
+
+    border:dotted;
+    border-color:red;
+    border-width:4xp;
+}
