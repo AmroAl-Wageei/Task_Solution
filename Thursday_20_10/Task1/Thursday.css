@@ -11,9 +11,11 @@
 
 .b {
 
-    border-style:dotted;
+    border-style:dashed;
     background-color:aliceblue;
     width: 800px;
+    padding-right: 10px;
+    padding-left: 10px;
 
 }
 
@@ -27,7 +29,8 @@
 
 #b1  {
 
-    border:dotted;
+    border:dashed;
     border-color:red;
     border-width:4xp;
+
 }
