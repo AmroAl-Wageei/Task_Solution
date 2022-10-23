@@ -1,0 +1,37 @@
+
+.control {
+
+  border: 3px solid red;
+  position: relative;
+  padding: 5px 5px;
+  position: relative;
+
+}
+
+#img {
+
+    background-image:url('../Images/koby.webp');
+    background-size: cover;
+    width:550px;
+    height:300px;
+    border: 6px solid blue;
+    position: absolute;
+    right:10px;
+    position:fixed;
+
+}
+
+#index {
+
+
+    z-index:2;
+    border: 3px solid greenyellow;
+    background-color: rgb(255, 255, 255);
+    color: rgb(238, 14, 14);
+    font-size: 20px;
+    position: relative;
+    left:400px;
+    top:200px;
+
+
+}
