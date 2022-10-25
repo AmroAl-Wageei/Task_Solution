@@ -1,172 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5</title>
 
+</head>
 
-    <style>
-        table , th , td {
 
-            border: 1px solid black;
-            color: brown;
-            background-color: beige;
-            text-align: center;
-            
+<style>
 
-        }
+    * {
 
-        a {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    
+    }
 
-            color: aqua;
-            text-align: top;
-            align-items: center;
-        }
-        
+    ul li {
 
-        
-    </style>
+        display: inline-block;
+    }
+    
+    .page {
+
+        display: grid;
+        height: 100vh;
+        background-color: antiquewhite;
+        grid-template-columns: repeat(10 , 1fr);
+        grid-template-rows: 40px auto 40px;
+        grid-template-areas: 
+        "logo logo logo nav nav nav nav nav nav  nav " 
+        "cont cont cont cont cont cont cont side side side" 
+        " foot foot foot foot foot foot foot foot foot foot";
+    }
+
+    h2 {
+
+        grid-area: logo;
+        background-color: blue;
+    }
+
+    nav {
+
+        grid-area: nav;
+        background-color: brown;
+    }
+
+    section {
+
+        grid-area:cont;
+        background-color: darkmagenta;
+    }
+
+    aside {
+
+        grid-area:side;
+        background-color: lightseagreen;
+    }
+
+    footer {
+
+        grid-area: foot;
+        background-color: orangered;
+    }
+</style>
 
 </head>
+
 <body>
+<div class="page">
+    <h2> Amro </h2>
+    <nav> 
 
-    <table>
-
-        <thead> 
-        <tr>
-        <th> Name's </th>
-        <th> Amro </th>
-        <th> Oday </th>
-        <th> Mohamed </th>
-        <th> Nancy </th>
-
-        </tr>
-    </thead>
-
-    <tbody> 
-        <tr>  
-            <td> <b>Major </b> </td>
-            <td> Software Eng </td>
-            <td> Computer Science  </td>
-            <td> MIS  </td>
-            <td> Data Science  </td>
-     
-             </tr>   
-
-
-    <tr>  
-       <td> <b> Avarege </b> </td>
-       <td> A+ </td>
-       <td> C  </td>
-       <td> B+ </td>
-       <td> A </td>
-
-        </tr>
-
-        <tr>  
-            <td> <b>University </b>  </td>
-            <td> Jordan University  </td>
-            <td colspan="2"> AUt   </td>
-            <td> German University  </td>
-     
-             </tr>
-
-
-        <tr>  
-            <td> <b> Phone number</b> </td>
-            <td> 00000000000 </td>
-            <td> 00000000000  </td>
-            <td> 00000000000  </td>
-            <td> 00000000000  </td>
-     
-             </tr>
-
-            </tbody>
-
-            <tfoot> 
-             <tr> 
-            <td> <b>City </b> </td>
-            <td colspan="4">  Aqaba  </td>
-
-             </tr>
-            </tfoot>
+        <ul> 
+            <li> Home </li>
+            <li> Search </li>
+            <li>  Description </li>
+            <li> Contact us </li>
+        </ul>
+    </nav>
+    <section> content</section>
+    <aside> side bar</aside>
+    <footer>footer</footer>
 
 
 
 
-
-    </table>
-   
-
-<table>
-    
-    <tr>
-        <th colspan="6"> Task </th>
-        
-    </tr>
-
-   <tr> 
-   <td> Sunday </td>
-   <td> 
-    <img src="./Task1.png" width="100" height="100">
-     <a href="Sunday_16_10/Task1.html"> Task 1</a> 
-    </td>
-   <td> 
-    <img src="./task2.png" width="100" height="100">
-    <a href="Sunday_16_10/Task2.html">Task 2</a> 
-</td>
+    </div>
 
 
-   <td colspan="2"> 
-    <img src="./task3.png" width="250" height="100" >
-    <a href="Sunday_16_10/Task3.html">Task 3</a> 
-
-   </td>
-
-   <td> 
-
-    <img src="./task4.png" width="100" height="100" >
-    <a href="Sunday_16_10/Task3.html">Task 4 </a>
-   </td>
-
-    </tr>
-
-
-    <tr> 
-        <td> Monday </td>
-        <td> 
-            <a href="Monday_17_10/Task1/Index.html">Task 1</a>
-            <img src="./task5.png" width="100" height="100" >
-        </td>
-
-        <td> 
-            <a href="Monday_17_10/Task2/index.html">Task 2</a> 
-            <img src="./task6.png" width="100" height="100" >
-        </td>
-
-        <td> <a href="Monday_17_10/Task3/Index.html">Task 3</a> 
-            <img src="./task7png.png" width="100" height="100" >
-        </td>
-
-
-        <td> <a href="Monday_17_10/Task4/Index.html">Task 4</a> 
-            <img src="./task8.png" width="100" height="100" >
-        </td>
-
-
-        <td> <a href="Monday_17_10/Task5/index.html">Task 5</a> 
-            <img src="./task9.png" width="100" height="100" >
-        </td>
-
-     
-         </tr>
-
-        
-
-
-</table>
 
 </body>
+
 </html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3692f58ddc.js" crossorigin="anonymous"> </script>
+
+
+    <title> Project Demo</title>
+
+<style>
+
+
+    * {
+
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+    ul li {
+
+        display: inline-block;
+        text-decoration: underline;
+        flex-grow: 33px;
+    
+    }
+    
+    .page {
+
+        display: grid;
+        height: 100vh;
+        background-color:#F2F2F2;
+        grid-template-columns: repeat(10 , 1fr);
+        grid-template-rows: 40px auto 40px;
+        grid-template-areas: 
+        ". .  logo nav nav nav nav nav . . " 
+        ". . cont  cont cont cont cont side . . " 
+        " . . foot foot foot foot foot foot . .";
+
+    
+    }
+
+    h2 {
+
+        grid-area: logo;
+        background-color:#D3C1B3;
+
+    }
+
+    nav {
+
+        grid-area: nav;
+        background-color:#b35b18;
+        grid-auto-rows: auto;
+    
+        
+    }
+
+    section {
+
+        grid-area:cont;
+        display: flex;
+    
+        background-image:('Photo by Thomas Nguka : https://www.pexels.com/photo/shirtless-man-in-red-trousers-on-blue-sky-background-10023707/');
+
+
+
+    }
+
+    aside {
+
+        grid-area:side;
+        background-color: lightseagreen;
+    }
+
+    footer {
+
+        grid-area: foot;
+        background-color: orangered;
+    }
+</style>
+
+
+</head>
+<body>
+
+
+    <div class="page">
+        <h2> <i class="fa-brands fa-slack"></i></h2>
+        <nav>
+    
+            <ul>
+                <li style="flex-grow:33px;"> Home </li>
+
+                
+                <li> Search </li>
+                <li> Description </li>
+                <li> About </li>
+                <li> Contact us </li>
+            </ul>
+        </nav>
+        <section> 
+            
+
+        <img src="../Task_Solution.jpg" alt="ggg">
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quaerat tempore delectus ipsa amet sequi veniam dignissimos dolor mollitia cum dolores officia repellendus officiis facere modi ut explicabo dolore, praesentium autem? Tempore vitae culpa numquam aliquid aspernatur, laboriosam eveniet, deleniti at minus cum debitis repellat nesciunt labore, eum voluptatibus dolores? </p>
+
+
+
+
+
+
+        </section>
+        <aside> side bar</aside>
+        <footer>footer</footer>
+    
+    
+    
+    
+    </div>
+
+
+    
+</body>
+</html>

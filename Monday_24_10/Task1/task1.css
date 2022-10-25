@@ -1,0 +1,67 @@
+.flex {
+
+
+    display: flex;
+    flex-direction: row;
+    border: 20px solid gold;
+    /* width: 100%; */
+    height: 650px;
+    font-size: 90px;
+    justify-content:center;
+}
+
+.flex div {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.t1 {
+
+    background-color: red;
+
+}
+
+.t2 {
+
+    background-color: green;
+}
+
+.t3 {
+
+    background-color: fuchsia;
+}
+
+.t4 {
+
+    background-color: khaki;
+}
+
+.t5 {
+
+    background-color: azure
+}
+
+.t6 {
+
+    background-color: hotpink
+}
+
+.t7 {
+
+    background-color: black
+}
+
+.t8 {
+
+    background-color: aquamarine
+}
+
+.t9 {
+
+    background-color: navy
+}
+
+/* }
+.t{width:70px ;} */
