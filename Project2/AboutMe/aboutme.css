@@ -1,0 +1,19 @@
+
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 40px;
+    
+}
+
+body {
+
+    background-image:linear-gradient(to left , rgb(205, 145, 34) , #fff);
+}
